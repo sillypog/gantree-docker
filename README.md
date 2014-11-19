@@ -8,6 +8,8 @@ This allows the container to be used to deploy any repo.
 However, Gantree currently emits a warning if the name of the working directory doesn't match the repo name;
 it is ok to ignore this.
 
+The image is available on [Dockerhub](https://registry.hub.docker.com/u/sillypog/gantree/).
+
 Example usage:
 
 ```
