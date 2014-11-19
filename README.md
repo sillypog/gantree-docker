@@ -1,7 +1,7 @@
 gantree-docker
 ==============
 
-Docker environment for Gantree deploys. The container is preloaded with Gantree and all tools needed for deployment.
+Docker environment for [Gantree](https://github.com/feelobot/gantree) deploys. The container is preloaded with Gantree and all tools needed for deployment.
 
 Your repo should be mounted as a volume named `/deploy` on the container.
 This allows the container to be used to deploy any repo.
