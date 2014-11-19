@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    archive-zip (0.7.0)
+      io-like (~> 0.3.0)
+    aws-sdk-v1 (1.59.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
+    cloudformation-ruby-dsl (0.4.7)
+      detabulator
+    colorize (0.7.3)
+    detabulator (0.1.0)
+    gantree (0.3.1)
+      archive-zip
+      aws-sdk-v1
+      cloudformation-ruby-dsl
+      colorize
+      hashie
+      highline
+      json
+      rubyzip
+      slackr
+      thor
+    hashie (3.3.1)
+    highline (1.6.21)
+    io-like (0.3.0)
+    json (1.8.1)
+    mini_portile (0.6.1)
+    multipart-post (2.0.0)
+    nokogiri (1.6.4.1)
+      mini_portile (~> 0.6.0)
+    rubyzip (1.1.6)
+    slackr (0.0.6)
+      multipart-post (~> 2.0.0)
+    thor (0.19.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gantree
